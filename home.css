@@ -1,0 +1,470 @@
+*{  
+        list-style: none;
+        text-decoration: none;
+}
+
+.navbar-brand img{
+                  height: 65px;
+                  padding-left: 25px;
+}
+/*.nav-item a{
+           
+        text-transform: uppercase;
+        font-size: 16px;
+        margin-right: 10px;
+        color: rgb(238, 8, 8);
+}
+.nav-item a:hover{
+               color: gray;
+}*/
+.btn-close{
+           cursor: pointer;
+}
+nav{
+       
+       background-color: #525151;
+}
+.offcanvas{
+        background-color: #525151;
+}
+
+.nav-link:focus, .nav-link:hover {
+        color: rgb(247, 205, 18);
+      }
+
+.nav-link{
+           
+            text-transform: capitalize;
+            font-size: 16px;
+            margin-right: 10px;
+            color: rgb(247, 205, 18);
+            font-weight: 600;
+            font-size: 18px;
+            text-align: center;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+        color: rgb(247, 205, 18);
+      }
+
+.top-banner{
+             background-image: url('icon/bakcground.png');
+             background-position: center;
+             background-repeat: no-repeat;
+              height: 680px;
+              width: 100%;
+              padding-top: 80px;
+              overflow: hidden;
+            
+}
+.top-banner .btn{
+                  border: 0px;
+                  outline:none;
+                  background-color:  rgb(233, 191, 5);
+                  color: black;
+                  text-transform: uppercase;
+                  font-weight: bolder;
+                  font-size: 20px;
+                  box-shadow: none;
+                  border-radius: 22px;
+}
+.top-banner .btn:hover{
+                        background-color:  rgb(233, 191, 5);
+                        color: black;
+}
+.top-banner-text h1{
+                    color: rgb(253, 218, 19);
+                    text-transform: capitalize;
+                    font-weight: bold;
+                    font-family: Salsa-Regular;
+                    src: url('fonts/salsa/Salsa-Regular.ttf');
+}
+.top-banner-text p{
+                  color: white;
+                  font-family: Poppins-Regular;
+                  src: url('fonts/Poppins/Poppins-Regular.ttf');
+}
+.navbar-toggler:focus{
+                       box-shadow: none;
+}
+.btn-close{
+          opacity: 5;
+          background-color:  rgb(233, 191, 5);
+}
+.btn-close:focus{
+                  opacity: 5;
+}
+.btn-close:hover{
+                  opacity: 5;
+}
+/*-----------------------------------MENU--------------------------*/
+.menu{
+       background-color: rgb(44, 44, 44);
+}
+
+.menu h3{
+        text-align: center;
+        text-transform: capitalize;
+        padding-bottom: 25px;
+        font-size: 35px;
+        font-weight: bolder;
+        color: white;
+        padding-top: 30px;
+        font-family: Poppins-Medium;
+        src: url('fonts/Poppins/Poppins-Medium.ttf');
+}
+.menupic{
+         display: grid;
+         justify-content: center;
+         align-items: center;
+         cursor: pointer;
+         
+}
+.menu-row{
+          padding-top: 50px;
+}
+
+.list-group{
+        
+         border: 3px solid rgb(236, 201, 4);
+          
+}
+.list-group li{
+                 display: flex;
+                 justify-content: space-between;
+                 background-color: rgba(255, 0, 0, 0);
+                 border: 0px;
+}
+.list-group-item h3{
+                    font-weight: bolder;
+                    color: white;
+                    text-transform: uppercase;
+                    
+                   
+}
+.list-group-item p{
+                    text-transform: capitalize;
+                    font-weight: 400;
+                    color: white;
+                    font-size: 13px;
+                    font-family:Poppins-Medium ;
+                    src: url('fonts/Poppins/Poppins-Medium.ttf');
+}
+#list-heading{
+              background-color: rgb(236, 201, 4);
+            
+}
+
+#item{
+                padding: 10px 20px;
+}
+
+/*-----------------------------------SECOND BANNER--------------------------*/
+.banner2{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         padding: 40px 10px;
+}
+.banner-text {
+              color: rgb(236, 201, 4);
+              text-transform: capitalize;
+}
+.banner-text h3{
+                font-weight: bold;
+                font-size: 27px;
+}
+.banner-text h2{
+        font-weight: bolder;
+        font-size: 44px;
+}
+.banner-text p{
+               font-size: 20px;
+               font-weight: 500;
+}
+.banner-text .btn{
+                background-color:rgb(236, 201, 4) ;
+                color: white;
+                text-transform: capitalize;
+                font-weight: bolder;
+}
+.banner-text .btn:focus{
+                  box-shadow: none;
+}
+.secondbanner{
+         background-color: rgb(41, 40, 40);
+}
+.banner-text img{
+                height: 60px;
+                width:75px;
+                cursor: pointer;
+}
+.banner-text div{
+                 padding-top: 25px;
+}
+.banner-text h4{
+                padding-top: 15px;
+}
+.banner-text{
+                width: auto;
+}
+
+/*----------------------------------THIRD BANNER (SPECIAL OF THE MONTH)-MENU--------------------------*/
+.thirdbanner{
+        background-color: rgb(54, 54, 54);
+       
+}
+.thirdbanner .list-group{
+        border: 3px solid rgb(236, 201, 4);
+}
+#special{
+        background-color: rgb(236, 201, 4);
+}
+#special h3{
+           color: rgb(255, 255, 255);
+           text-align: center;
+            
+}
+#special-text{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+
+}
+.thirdbanner p{
+                            color: rgb(255, 255, 255);
+                            font-size: 20px;
+                            
+                            font-weight: bold;
+                            text-transform: capitalize;
+                            
+}
+.thirdbanner #text{
+                   color: white;
+                   text-align: left;
+                   text-transform: capitalize;
+                   font-weight: 300;
+                   src: url('fonts/salsa/Salsa-Regular.ttf');
+                  text-transform: capitalize;
+                  font-style: italic;
+}
+.thirdbanner-first{
+                  padding: 20px 25px;
+}
+.thirdbanner-second {
+                    display: flex;
+                    flex-flow: row-reverse;
+                    align-items: center;
+                    justify-content: center;
+}
+
+.first-pic img{
+               padding-top: 150px;
+}
+.third-pic img{
+           height: 210px;
+           width: 210px; 
+}
+
+
+
+/*----------------------------------FOURTH BANNER (OUR METHOD)--------------------------*/
+.fourth-banner{
+               display: flex;
+               justify-content: space-between;
+               background-color: rgb(43, 43, 43);
+}
+.fourth-banner-text{
+                    display: grid;
+                    align-items: center;
+}
+#our-method{
+        background-color:rgb(236, 201, 4) ;
+}
+#our-method h2{
+               text-align: center;
+               text-transform: uppercase;
+               font-weight: bolder;
+               
+}
+/*---------------------------------FIFTH BANNER--------------------------*/
+
+.fifth-banner-fisrt-row{
+                      display: flex;
+                      justify-content: space-between;
+                      padding: 55px 15px;
+}
+#fifth-heading{
+        background-color:rgb(236, 201, 4) ;
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        
+}
+
+#fifth-second-heading {
+                      display: flex;
+                       
+}
+
+.fifth-banner-second-row .col{
+                       background-image: url('pic/banner10.png');
+                       height: 400px;
+                       background-position: center;
+                       background-size: cover;
+}
+.fifth-banner-fisrt-row ul li{
+                            display: grid;
+                            align-items: center;
+                            justify-content: center;
+}
+#fifth-second-heading h4{
+                         text-transform: capitalize;
+                         color: white;
+                         font-size: 30px;
+}
+#fifth-third-heading h5{
+        text-transform: capitalize;
+        color: white;
+        font-size: 20px;
+}
+.fifth-banner p{
+        color: white;
+        text-transform: capitalize;
+        font-weight: 300;
+        font-weight: 300;
+        src: url('fonts/salsa/Salsa-Regular.ttf');
+       text-transform: capitalize;
+       font-style: italic;
+}
+/*---------------------------------SIXTH BANNER (THE MEAT EXPERIENCE)--------------------------*/
+.sixth-banner-child1 .col{
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     padding-top: 48px;
+}
+.sixth-banner-child1 .col img{
+                             height: 90px;
+                             cursor: pointer;
+}
+.sixth-banner-child2 .col{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                        padding-top: 48px;
+}
+.sixth-banner-child2 .col h2{
+                             text-transform: capitalize;
+                             font-weight: bold;
+                             color: yellow;
+}
+#child3-first-heading{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color:rgb(236, 201, 4) ;
+                color: rgb(0, 0, 0);
+                text-transform: uppercase;
+                font-weight:bolder;
+                font-size: 20px;
+}
+
+.child3-first-list ul li{
+                         color: white;
+}
+
+.child3-second-list ul li{
+                          color: white;
+                          text-transform: capitalize;
+                          font-weight: 500;
+                          font-family:Poppins-Medium ;
+                          src: url('fonts/Poppins/Poppins-Medium.ttf');
+                          
+}
+.child3-second-list ul{ 
+                      border: 0px;
+                      
+}
+.child3-second-list ul li a{
+                              color: white;
+                              font-size: 18px;
+                              padding-bottom: 10px;
+                              text-decoration: none;
+                              font-family: Salsa-Regular;
+                              src: url('fonts/salsa/Salsa-Regular.ttf');
+                              
+}
+.sixth-banner-child3 {
+                       
+                        padding:40px 5px ;
+}
+.sixth-banner-child4{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+}
+.sixth-banner-child4 .social{
+                            display: flex;
+                            align-items: center;
+                           
+}
+.social div{ 
+        padding-left: 15px;
+}
+.social a{
+          color: white;
+          font-weight: 500;
+          text-decoration: none;
+          text-align: center;
+}
+.sixth-banner-child4 img{
+                         height: 35px;
+}
+
+.address p{
+           color: white;
+           text-transform: capitalize;
+           font-weight: 25px;
+           text-align: center;
+}
+.social img{
+           cursor: pointer;
+           padding-left: 5px;
+}
+
+
+
+.close img{
+         height: 40px;
+         width: 40px;
+         margin-top: 10px;
+         margin-left: 10px;
+         cursor: pointer;
+}
+
+.sixth-banner-child4 .col-md-6{
+                              
+                               display: flex;
+                               justify-content: center;
+                               align-items: center;
+}
+
+/*---------------------------------------------------------------user login/new accout modal--------------------------*/
+
+@media screen and (max-width:768px){
+         
+        .thirdbanner-first #text{
+                                text-align: center;
+                                padding-top: 15px;
+        }
+        .fifth-banner p{
+                          text-align: center;
+        }
+        .top-banner{
+                   text-align: center;
+        }
+  }
